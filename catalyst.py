@@ -6,7 +6,9 @@ class jazz:
      f = figure(title = "Creativity Through Performace in Jazz Improvisation", width = 1000)
 
      x = [-204.70, -203.80, -192.12, -191.52, -191.41]
+     #log-likelihood: explaination in presentation
      y = [0.0788, 0.171, 0.002, 0.0271, 0.489]
+     #p-value: explaination in presentation
      legend = ["Music Training", "Jazz Training", "With Experience", "With Instructions", "With Instructions and Experience"]
 
      f.circle(x[0], y[0], size = 10, color = "green", legend_label = legend[0])
